@@ -1,11 +1,11 @@
 import { createBrowserRouter } from "react-router";
 import RootLayout from "../layouts/RootLayout";
-import Inicio from "../pages/Inicio";
-import NossoCafe from "../pages/NossoCafe";
-import NotFound from "../pages/NotFound";
-import Noticias from "../pages/Noticias";
-import Contato from "../pages/Contato";
-import Cardapio from "../pages/Cardapio";
+import Inicio from "../pages/inicio/Inicio";
+import NossoCafe from "../pages/nossoCafé/NossoCafe";
+import NotFound from "../pages/notFound/NotFound";
+import Noticias from "../pages/noticias/Noticias";
+import Contato from "../pages/contato/Contato";
+import Cardapio from "../pages/cardapio/Cardapio";
 
 const Paths = createBrowserRouter([
     {
