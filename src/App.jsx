@@ -1,9 +1,10 @@
+import { RouterProvider } from "react-router";
 import Paths from "./routes/Paths";
 
 const App = () => {
   return (
     <>
-      <Paths />
+      <RouterProvider router={Paths}></RouterProvider>
     </>
   );
 }

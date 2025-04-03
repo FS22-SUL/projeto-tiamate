@@ -1,56 +1,40 @@
-import { BrowserRouter, Route, Routes } from "react-router";
+import { createBrowserRouter } from "react-router";
+import RootLayout from "../layouts/RootLayout";
 import Inicio from "../pages/Inicio";
 import NossoCafe from "../pages/NossoCafe";
-import Header from "../components/Header";
+import NotFound from "../pages/NotFound";
 import Noticias from "../pages/Noticias";
 import Contato from "../pages/Contato";
 import Cardapio from "../pages/Cardapio";
-import Franquia from "../pages/Franquia";
-import NotFound from "../pages/NotFound";
-import Noticia from "../pages/Noticia";
 
-const Paths = () => {
-    return (
-        <>
-            <BrowserRouter>
-                <Header />
-                <Routes>
-                    <Route
-                        path="/"
-                        element={<Inicio />}
-                    />
-                    <Route 
-                        path="/nosso-cafe"
-                        element={<NossoCafe />}
-                    />
-                    <Route 
-                        path="/noticias"
-                        element={<Noticias />}
-                    />
-                    <Route 
-                        path="/noticias/:id"
-                        element={<Noticia />}
-                    />
-                    <Route 
-                        path="/contato"
-                        element={<Contato />}
-                    />
-                    <Route 
-                        path="/cardapio"
-                        element={<Cardapio />}
-                    />
-                    <Route 
-                        path="/franquia"
-                        element={<Franquia />}
-                    />
-                    <Route 
-                        path="*"
-                        element={<NotFound />}
-                    />
-                </Routes>
-            </BrowserRouter>
-        </>
-    );
-}
+const Paths = createBrowserRouter([
+    {
+        path: "/",
+        element: <RootLayout />,
+        errorElement: <NotFound />,
+        children: [
+            {
+                index: true,
+                element: <Inicio />
+            },
+            {
+                path: "nosso-cafe",
+                element: <NossoCafe />
+            },
+            {
+                path: "noticias",
+                element: <Noticias />   
+            },
+            {
+                path: "contato",
+                element: <Contato />   
+            },
+            {
+                path: "cardapio",
+                element: <Cardapio />   
+            }
+        ]        
+    }
+])
 
-export default Paths;
+export default Paths
