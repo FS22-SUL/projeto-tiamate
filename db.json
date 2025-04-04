@@ -1,0 +1,32 @@
+{
+  "noticias": [
+    {
+      "id": 1,
+      "titulo": "Tiamate Café lança nova linha de produtos",
+      "descricao": "A Tiamate Café lança uma nova linha de produtos para atender a diversidade de gostos dos clientes",
+      "imagem": "https://picsum.photos/200/300",
+      "data": "01/05/2022"
+    },
+    {
+      "id": 2,
+      "titulo": "Tiamate Café participa de feira de negócios",
+      "descricao": "A Tiamate Café participou da feira de negócios da região e apresentou seus produtos",
+      "imagem": "https://picsum.photos/200/301",
+      "data": "20/06/2022"
+    },
+    {
+      "id": 3,
+      "titulo": "Tiamate Café inaugura loja em novo endereço",
+      "descricao": "A Tiamate Café inaugurou uma nova loja em um novo endereço, ampliando sua presença na região",
+      "imagem": "https://picsum.photos/200/302",
+      "data": "05/07/2022"
+    },
+    {
+      "id": 4,
+      "titulo": "Tiamate Café lança promoção especial",
+      "descricao": "A Tiamate Café lança uma promoção especial para os clientes, com descontos em todos os produtos",
+      "imagem": "https://picsum.photos/200/303",
+      "data": "07/08/2022"
+    }
+  ]
+}

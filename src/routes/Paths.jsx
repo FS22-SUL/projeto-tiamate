@@ -6,6 +6,7 @@ import NotFound from "../pages/notFound/NotFound";
 import Noticias from "../pages/noticias/Noticias";
 import Contato from "../pages/contato/Contato";
 import Cardapio from "../pages/cardapio/Cardapio";
+import Noticia from "../pages/noticia/Noticia";
 
 const Paths = createBrowserRouter([
     {
@@ -25,6 +26,11 @@ const Paths = createBrowserRouter([
                 path: "noticias",
                 element: <Noticias />   
             },
+            {
+                path: "noticias/:id",
+                element: <Noticia />   
+            }
+            ,
             {
                 path: "contato",
                 element: <Contato />   
