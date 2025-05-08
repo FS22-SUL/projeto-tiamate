@@ -1,10 +1,10 @@
-import FormFranqueado from "../components/FormFranqueado";
+import Sobre from "../components/Sobre";
 
 const Inicio = () => {
     return (
         <>
-            <h1>Pagina inicio</h1>
-            <FormFranqueado />
+            <Sobre />
+            <videoTiamate />
         </>
     );
 }

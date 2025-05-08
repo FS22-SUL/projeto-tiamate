@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router";
 const Header = () => {
     return (
         <>
-            <div>
+            <header>
                 <nav>
                     <h1 className="text-red-500">LOGO</h1>
                     <NavLink to={"/"}>Inicio</NavLink>
@@ -15,7 +15,7 @@ const Header = () => {
                 </nav>
                 <Link to={"/franquia"}>Seja um franqueado</Link>
                 <House />
-            </div>
+            </header>
         </>
     );
 }
