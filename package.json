@@ -17,6 +17,7 @@
     "antd": "^5.25.0",
     "axios": "^1.9.0",
     "boxicons": "^2.1.4",
+    "framer-motion": "^12.12.1",
     "json-server": "^0.17.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

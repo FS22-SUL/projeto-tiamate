@@ -16,5 +16,37 @@
             "noticia_link": "https://google.com",
             "noticia_descricao": "lorem ipsum dolor"
         }
+    ],
+    "cardapio":[
+        {
+            "id": "1",
+            "cardapio_titulo": "Merry Berry",
+            "cardapio_imagem": "/src/assets/Tiamatino-imagens/merry-berry.png",
+            "cardapio_descricao": "Uma explosão de frutas vermelhas em um café cremoso e refrescante. Perfeito para quem ama combinações marcantes e um toque doce e frutado."
+        },
+        {
+            "id": "2",
+            "cardapio_titulo": "Tiamatino Coffee Brigadeiro",
+            "cardapio_imagem": "/src/assets/Tiamatino-imagens/Tiamatino coffee brigadeiro.png",
+            "cardapio_descricao": "Nosso clássico café com o sabor irresistível do brigadeiro. Cremoso, doce na medida certa e feito para conquistar qualquer apaixonado por café e chocolate."
+        },
+        {
+            "id": "3",
+            "cardapio_titulo": "Tiamatino Coffee Caramelo",
+            "cardapio_imagem": "/src/assets/Tiamatino-imagens/Tiamatino coffee caramelo.png",
+            "cardapio_descricao": "A suavidade do café com o sabor envolvente do caramelo. Doce, aveludado e com aquele gostinho que faz você querer mais um gole."
+        },
+        {
+            "id": "4",
+            "cardapio_titulo": "Tiamatino Coffee Cookie",
+            "cardapio_imagem": "/src/assets/Tiamatino-imagens/Tiamatino coffee cookie.png",
+            "cardapio_descricao": "Imagine seu café favorito com o sabor dos cookies recém-saídos do forno. Cremoso, com notas amanteigadas e um toque de baunilha. Uma verdadeira sobremesa na xícara."
+        },
+        {
+            "id": "5",
+            "cardapio_titulo": "Tiamatino Coffee Tradicional",
+            "cardapio_imagem": "/src/assets/Tiamatino-imagens/Tiamatino coffee tradicional.png",
+            "cardapio_descricao": "O sabor autêntico do café bem feito. Encorpado, aromático e perfeito para qualquer hora do dia. Para quem valoriza o bom e velho café de qualidade."
+        }
     ]
 }
