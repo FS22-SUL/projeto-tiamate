@@ -1,7 +1,9 @@
+import Sessao from "../components/Sessao";
+
 const NossoCafe = () => {
     return (
         <>
-            <h1>Pagina nosso cafe</h1>
+          <Sessao />  
         </>
     );
 }
