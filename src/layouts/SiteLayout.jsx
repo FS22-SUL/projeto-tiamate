@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 const SiteLayout = () => {
     return (
         <>
-            {/* <Header /> */}
+            <Header />
             <Outlet />
 
         </>
